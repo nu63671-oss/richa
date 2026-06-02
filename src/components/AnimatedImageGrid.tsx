@@ -111,7 +111,7 @@ const AnimatedImageGrid: React.FC = () => {
 
       <div className="grid-message">
         <p className="romantic-message">
-          Every picture tells our story, every moment is a treasure 💕
+          Will you be mine? 💍
         </p>
       </div>
     </div>

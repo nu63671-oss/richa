@@ -73,12 +73,10 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
               <p className="handwritten-line">
                 Mujhe khud se pyaar se apne dil mein bsa le ja
               </p>
-              <p className="handwritten-line">
-              </p>
               <div className="handwritten-signature">
-                Forever yours,
+                Forever yours Yuvraj,
                 <br />
-                <span className="signature-name">Your Love</span>
+                Will you be mine? 💖
               </div>
             </div>
           </div>

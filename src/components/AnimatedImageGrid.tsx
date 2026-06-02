@@ -109,15 +109,7 @@ const AnimatedImageGrid: React.FC = () => {
         ))}
       </div>
 
-      <div className="grid-message">
-        <p
-          className="romantic-message text-3xl md:text-5xl font-extrabold text-white bg-pink-500/90 px-6 py-3 rounded-2xl shadow-2xl inline-block transform transition-transform duration-300 hover:scale-105"
-          role="status"
-          aria-live="polite"
-        >
-          Will you be mine? 💍
-        </p>
-      </div>
+      
     </div>
   );
 };

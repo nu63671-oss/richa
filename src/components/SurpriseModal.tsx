@@ -55,23 +55,25 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
         <div className={`handwritten-letter ${showLetter ? "show" : ""}`}>
           <div className="letter-paper">
             <div className="letter-header">
-              <h2 className="handwritten-title">My Dearest Love</h2>
+              <h2 className="handwritten-title">My Dearest Richa</h2>
             </div>
             <div className="handwritten-content">
               <p className="handwritten-line">
-                Every moment with you feels like magic...
+                Teri muskaan se meri subah roshan ho jaati hai,
+                Teri baaton se meri har shaam khoobsurat ho jaati hai.
               </p>
               <p className="handwritten-line">
-                You are the light that brightens my darkest days,
+                Ab aur kya kahoon apne dil ki baat,
+                Bas itna jaanta hoon ki tu mere har khwaab mein aati hai.
               </p>
               <p className="handwritten-line">
-                the melody that makes my heart sing,
+                Agar tujhe manzoor ho, to meri zindagi ka hissa ban ja,
+                Mere har safar ki humsafar, meri har khushi ki wajah ban ja.
               </p>
               <p className="handwritten-line">
-                and the dream I never want to wake up from.
+                Mujhe khud se pyaar se apne dil mein bsa le ja
               </p>
               <p className="handwritten-line">
-                I love you more than words can express.
               </p>
               <div className="handwritten-signature">
                 Forever yours,

@@ -8,7 +8,7 @@ const LoveLetter = () => {
         <h2 className="letter-title">A Letter From My Heart</h2>
         <div className="letter-content">
           <p className="letter-paragraph">
-            My Dearest Love,
+            My Dearest RICHA,
           </p>
           <p className="letter-paragraph">
             Every day with you feels like a beautiful dream that I never want to wake up from. 

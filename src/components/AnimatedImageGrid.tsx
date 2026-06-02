@@ -2,36 +2,36 @@ import React, { useState, useEffect } from 'react';
 
 const AnimatedImageGrid: React.FC = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-  
+
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1518621012118-696072aa579a?w=400&h=400&fit=crop",
-      caption: "You Made My Dreams Come True",
+      src: '/romantic/romantic-1.jpg',
+      caption: 'You Make My Heart Smile',
       delay: 0
     },
     {
-      src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop",
-      caption: "Every Moment With You",
+      src: '/romantic/romantic-2.jpg',
+      caption: 'Every Moment Feels Warm',
       delay: 0.2
     },
     {
-      src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=400&fit=crop",
-      caption: "Forever In My Heart",
+      src: '/romantic/romantic-3.jpg',
+      caption: 'Forever In My Heart',
       delay: 0.4
     },
     {
-      src: "https://images.unsplash.com/photo-1516589091380-5d8e87df6999?w=400&h=400&fit=crop",
-      caption: "You Are My Everything",
+      src: '/romantic/romantic-4.jpg',
+      caption: 'You Are My Everything',
       delay: 0.6
     },
     {
-      src: "https://images.unsplash.com/photo-1518197336700-b6e7d83b5b93?w=400&h=400&fit=crop",
-      caption: "Love Beyond Words",
+      src: '/romantic/romantic-5.jpg',
+      caption: 'Love Beyond Words',
       delay: 0.8
     },
     {
-      src: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=400&fit=crop",
-      caption: "Beautiful Like You",
+      src: '/romantic/romantic-6.jpg',
+      caption: 'Beautiful Like You',
       delay: 1.0
     }
   ];
@@ -90,6 +90,10 @@ const AnimatedImageGrid: React.FC = () => {
                 src={image.src}
                 alt={image.caption}
                 className="grid-image"
+                loading="eager"
+                onError={(event) => {
+                  event.currentTarget.src = '/placeholder.svg';
+                }}
               />
               <div className="image-overlay">
                 <div className="image-hearts">

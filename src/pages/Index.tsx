@@ -4,7 +4,6 @@ import IntroScreen from '../components/IntroScreen';
 import HeartAnimation from '../components/HeartAnimation';
 import FloatingText from '../components/FloatingText';
 import LoveLetter from '../components/LoveLetter';
-import PhotoSlider from '../components/PhotoSlider';
 import SurpriseButton from '../components/SurpriseButton';
 import ParticleHeart from '../components/ParticleHeart';
 import SurpriseModal from '../components/SurpriseModal';
@@ -107,11 +106,6 @@ const Index = () => {
         {/* Love Letter Section */}
         <div className="w-full max-w-4xl mb-12">
           <LoveLetter />
-        </div>
-
-        {/* Photo Slider Section */}
-        <div className="w-full max-w-4xl mb-12">
-          <PhotoSlider />
         </div>
 
         {/* Animated Image Grid Section */}
